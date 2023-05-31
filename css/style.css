@@ -114,6 +114,9 @@
     .sitenav__link:hover{
       color: red;
     }
+    .sitenav__link:active{
+      color: var(--text-color);
+    }
     .main {
     }
     .hero {
@@ -170,6 +173,10 @@
       color: var(--button-bg-color);
       border: solid 2px var(--button-bg-color);
       background-color: var(--white-color);
+    }
+    .button:active{
+      background-color: #de2e54c9;
+      color: var(--white-color);
     }
     /* SERVER */
     .server {
